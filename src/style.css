@@ -1,3 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
-  background-color: bisque;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+  margin: 2rem;
+}
+
+main {
+  margin: 2rem 8rem;
+  display: flex;
+  column-gap: 2rem;
+}
+
+.scores {
+  display: flex;
+}
+
+.btn-refresh {
+  margin-left: 1rem;
+}
+
+form {
+  margin-top: 1rem;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
 }
