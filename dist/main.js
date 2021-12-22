@@ -116,7 +116,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n//# sourceURL=webpack://webpack-setup/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _newGame_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./newGame.js */ \"./src/newGame.js\");\n\n\n\n(0,_newGame_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack://webpack-setup/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/newGame.js":
+/*!************************!*\
+  !*** ./src/newGame.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ newGame)\n/* harmony export */ });\n// document.getElementById('data-submit').addEventListener('submit', newGame());\n\nfunction newGame(e) {\n  e.preventDefault();\n  // let name = document.getElementById('name').value;\n  // let score = document.getElementById('score').value;\n  fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games', {\n    method: 'POST',\n    body: JSON.stringify({ name: 'Civilization IV' }),\n  })\n    .then((res) => res.json())\n    .then((data) => console.log(data));\n}\n\n//# sourceURL=webpack://webpack-setup/./src/newGame.js?");
 
 /***/ })
 

@@ -12,11 +12,22 @@ In this activity I will set up a JavaScript project for the Leaderboard list app
 
 ## Instructions:
 
-- Use [Gitflow](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/articles/gitflow.md)
-- Create an npm project with [webpack](https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin)
-- Write plain HTML markup with minimum styling (just to make the layout), because you will implement styles in the following steps
-- Don't make API calls (you'll do it in a following lesson).
-- Use ES6 modules, with import and export.
+### Phase 1, setup project
+
+- [x] Use [Gitflow](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/articles/gitflow.md)
+- [x] Create an npm project with [webpack](https://webpack.js.org/guides/output-management/#setting-up-htmlwebpackplugin)
+- [x] Write plain HTML markup with minimum styling (just to make the layout), because you will implement styles in the following steps
+- [x] Don't make API calls (you'll do it in a following lesson).
+- [x] Use ES6 modules, with import and export.
+
+### Phase 2, hit the API
+
+- Read the Leaderboard API documentation to learn how to use this API.
+- Create a new game with the name of your choice by using the API.
+- Implement the "Refresh" button (receiving data from the API and parsing the JSON).
+- Implement the form "Submit" button (sending data to the API).
+- Use `async` and `await` JavaScript features to consume the API.
+- No styling is required.
 
 ## Built With
 
