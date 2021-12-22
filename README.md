@@ -2,13 +2,13 @@
 
 # Yuriy Chamkoriyski Leaderboard project
 
-> JavaScript leaderboard project using API.
+> JavaScript Leader board project using API.
 
 ![screenshot](./leaderboard.png)
 
 ## Description
 
-In this activity I will set up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I should develop a first working version of the app following a wire frame, but without styling - just focus on functionality. In following activities, I will consume the Leaderboard API using JavaScript async and await and add some styling.
+In this activity I will set up a JavaScript project for the Leader board list app, using webpack and ES6 features, notably modules. I should develop a first working version of the app following a wire frame, but without styling - just focus on functionality. In following activities, I will consume the Leader board API using JavaScript async and await and add some styling.
 
 ## Instructions:
 
@@ -22,7 +22,7 @@ In this activity I will set up a JavaScript project for the Leaderboard list app
 
 ### Phase 2, hit the API
 
-- Read the Leaderboard API documentation to learn how to use this API.
+- Read the Leader board API documentation to learn how to use this API.
 - Create a new game with the name of your choice by using the API.
 - Implement the "Refresh" button (receiving data from the API and parsing the JSON).
 - Implement the form "Submit" button (sending data to the API).

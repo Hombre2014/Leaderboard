@@ -33,7 +33,7 @@ form {
 }
 
 input {
-  width: 100%;
+  min-width: 95%;
 }
 
 .btn-submit {
@@ -55,9 +55,29 @@ aside {
 .result {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 0.5rem 0 0.5rem;
+  padding: 0.5rem;
 }
 
-.results {
+.result:first-of-type {
+  background-color: rgb(155, 155, 155);
+}
+
+/* .results {
   border: 2px solid black;
+} */
+
+.results :nth-child(2n+3) {
+  background-color: rgb(155, 155, 155);
+}
+
+.your-name,
+.your-score {
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+
+#data-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }

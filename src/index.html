@@ -4,12 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yuriy's Leaderboard app</title>
+  <title>Yuriy's Leader board app</title>
 </head>
 
 <body>
   <header>
-    <h1 id="title">Leaderboard</h1>
+    <h1 id="title">Leader board</h1>
   </header>
   <main>
     <section>
@@ -17,29 +17,16 @@
         <h2>Recent scores</h2>
         <button class="btn-refresh" type="button">Refresh</button>
       </div>
-      <div class="results">
-        <div class="result">
-          <span class="name">Adam Smith: </span>
-          <span class="score">100</span>
-        </div>
-        <div class="result">
-          <span class="name">Boris Johnson: </span>
-          <span class="score">120</span>
-        </div>
-        <div class="result">
-          <span class="name">Cindy Loper: </span>
-          <span class="score">134</span>
-        </div>
-      </div>
+      <div class="results"></div>
     </section>
     <aside>
       <h2>Add your score</h2>
       <form id="data-submit">
         <label for="name"></label>
-        <input class="your-name" type="text" id="name" name="name" placeholder="Your name"><br><br>
+        <input class="your-name" type="text" id="name" name="name" placeholder="Your name">
         <label for="score"></label>
-        <input class="your-score" type="text" id="score" name="score" placeholder="Your score"><br><br>
-        <input class="btn-submit" type="submit" value="Submit">
+        <input class="your-score" type="text" id="score" name="score" placeholder="Your score">
+        <button class="btn-submit" type="submit" value="Submit" title="Submit">Submit</button>
       </form>
     </aside>
   </main>

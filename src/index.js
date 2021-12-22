@@ -1,8 +1,6 @@
 import './style.css';
-import newGame from './newGame.js';
 import postScore from './post.js';
+import refresh from './refresh.js';
 
-// newGame();
-// console.log(newGame());
 document.getElementById('data-submit').addEventListener('submit', postScore);
-// clearFields();
+document.querySelector('.btn-refresh').addEventListener('click', refresh);
