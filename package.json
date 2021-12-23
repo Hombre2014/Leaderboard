@@ -1,8 +1,8 @@
 {
-  "name": "webpack-setup",
+  "name": "leaderboard",
   "version": "1.0.0",
-  "description": "",
-  "private": true,
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hombre2014/Webpack-Setup.git"
+    "url": "git+https://github.com/Hombre2014/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hombre2014/Webpack-Setup/issues"
+    "url": "https://github.com/Hombre2014/Leaderboard/issues"
   },
-  "homepage": "https://github.com/Hombre2014/Webpack-Setup#readme",
+  "homepage": "https://github.com/Hombre2014/Leaderboard#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.5.1",

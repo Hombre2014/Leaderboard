@@ -1,4 +1,4 @@
-class Result {
+export default class Result {
   static record(user, score) {
     return `
     <div class="result" data-id=${user}>
@@ -8,5 +8,3 @@ class Result {
     `;
   }
 }
-
-export default Result;

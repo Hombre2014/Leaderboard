@@ -12,5 +12,3 @@ export default async function refresh() {
     list.innerHTML += savedRecord;
   });
 }
-
-// lOq0dmHy9dxQFGJpHZC1

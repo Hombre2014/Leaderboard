@@ -2,7 +2,7 @@
 
 # Yuriy Chamkoriyski Leader's board project
 
-> JavaScript Leader's board project using API.
+> The Leader's board website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
 ![screenshot](./src/img/Leaderboard_snapshot.png)
 
@@ -31,11 +31,11 @@ In this activity I will set up a JavaScript project for the Leader board list ap
 
 ### Phase 3, final touches
 
-- At this point I should have a fully working app that uses only basic styles to make the layout work, according to this wire frame:
-![screenshot](./src/img/leaderboard.png)
-- Now you should improve the look and feel of the application, adding the styles of your choice.
-- Please keep the general layout of the wire frame, this is the only mandatory requirement.
-- You can use plain CSS or any CSS framework, it's up to you.
+- [x] At this point I should have a fully working app that uses only basic styles to make the layout work, according to this wire frame:
+- [x] ![screenshot](./src/img/leaderboard.png)
+- [x] Now you should improve the look and feel of the application, adding the styles of your choice.
+- [x] Please keep the general layout of the wire frame, this is the only mandatory requirement.
+- [x] You can use plain CSS or any CSS framework, it's up to you.
 
 ## Built With
 
