@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Yuriy Chamkoriyski Leaderboard project
+# Yuriy Chamkoriyski Leader's board project
 
-> JavaScript Leader board project using API.
+> JavaScript Leader's board project using API.
 
-![screenshot](./leaderboard.png)
+![screenshot](./src/img/Leaderboard_snapshot.png)
 
 ## Description
 
@@ -22,12 +22,20 @@ In this activity I will set up a JavaScript project for the Leader board list ap
 
 ### Phase 2, hit the API
 
-- Read the Leader board API documentation to learn how to use this API.
-- Create a new game with the name of your choice by using the API.
-- Implement the "Refresh" button (receiving data from the API and parsing the JSON).
-- Implement the form "Submit" button (sending data to the API).
-- Use `async` and `await` JavaScript features to consume the API.
-- No styling is required.
+- [x] Read the Leader board API documentation to learn how to use this API.
+- [x] Create a new game with the name of your choice by using the API.
+- [x] Implement the "Refresh" button (receiving data from the API and parsing the JSON).
+- [x] Implement the form "Submit" button (sending data to the API).
+- [x] Use `async` and `await` JavaScript features to consume the API.
+- [x] No styling is required.
+
+### Phase 3, final touches
+
+- At this point I should have a fully working app that uses only basic styles to make the layout work, according to this wire frame:
+![screenshot](./src/img/leaderboard.png)
+- Now you should improve the look and feel of the application, adding the styles of your choice.
+- Please keep the general layout of the wire frame, this is the only mandatory requirement.
+- You can use plain CSS or any CSS framework, it's up to you.
 
 ## Built With
 
@@ -37,7 +45,7 @@ In this activity I will set up a JavaScript project for the Leader board list ap
 
 ## Live Demo
 
-- Not deployed yet.
+- [Live Demo](https://chamkoriyski.me/Leaderboard/dist/)
 
 ## Getting Started
 
